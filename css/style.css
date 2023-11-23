@@ -12,3 +12,24 @@ body{
 }
 
 /* Utils */
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.navbar{
+    height: 80px;
+    border: 2px dashed black;
+}
+
+li{
+    border: 2px dashed black;
+    height: 60px;
+    width: calc( 100% / 2 - 10px);
+    display: inline-block
+}
+
+ul{
+  list-style-type: none;
+}
