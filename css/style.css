@@ -11,25 +11,75 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* Utils */
 
 .container{
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
-.navbar{
-    height: 80px;
-    border: 2px dashed black;
-}
-
-li{
-    border: 2px dashed black;
-    height: 60px;
-    width: calc( 100% / 2 - 10px);
-    display: inline-block
+.img{
+    width: 100%;
+    display: block;
 }
 
 ul{
   list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    padding-bottom: 80px;
+}
+
+/*Header*/
+
+#main-header{
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 1px 3px grey;
+
+    position: sticky;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 30px;
+}
+
+/* Large section */
+
+#jumbotron{
+    background-color: #B4D0E7 ;
+}
+
+.row{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.small-box{
+    flex-basis: 30%;
+    min-height: 400px;
+    align-self: flex-end;
+}
+
+.large-box{
+    flex-basis: 70%;
+    min-height: 400px;
+    align-self: flex-end;
+} 
+
