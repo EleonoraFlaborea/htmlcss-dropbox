@@ -14,12 +14,17 @@ body{
 
 /* Utils */
 
+.logo{
+    width: 130px;
+    display: inline-block;
+}
+
 .container{
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.img{
+img{
     width: 100%;
     display: block;
 }
@@ -37,6 +42,7 @@ h1{
     font-weight: 900;
     font-size: 100px;
     padding-bottom: 80px;
+    padding-top: 50px;
 }
 
 /*Header*/
@@ -68,18 +74,18 @@ h1{
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+
 }
 
 .small-box{
     flex-basis: 30%;
-    min-height: 400px;
-    align-self: flex-end;
+    max-height: 400px;
+    
 }
 
 .large-box{
     flex-basis: 70%;
-    min-height: 400px;
-    align-self: flex-end;
+    max-height: 400px;
+   
 } 
 
