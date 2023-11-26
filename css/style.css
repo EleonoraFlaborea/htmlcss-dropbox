@@ -215,6 +215,7 @@ h4{
 }
 
 /*Partner*/
+
 .s-partner{
     min-height: 500px;
     padding-bottom: 250px;
@@ -239,6 +240,8 @@ h4{
 }
 
 /*Designit*/
+
+
 .division{
     display: flex;
     width: 100%;
@@ -347,6 +350,7 @@ div.line{
     border-bottom: 1px solid black;
 
 }
+
 
 /*Footer*/
 
