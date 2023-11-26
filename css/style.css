@@ -11,12 +11,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
 /* Utils */
 
 .btn{
    background-color: #1F61FF;
-   padding: 5px 10px;
+   padding: 10px 15px;
    display: inline-block;
    color: white;
    margin: 15px 0;
@@ -36,7 +35,6 @@ img{
     max-width: 100%;
     display: block;
 }
-
 
 ul{
     list-style-type: none;
@@ -60,7 +58,7 @@ h1{
 }
 
 h3{
-    padding-top: 150px;
+    padding-top: 200px;
     font-weight: 900;
     font-size: 50px;
     margin-bottom: 50px;
@@ -92,6 +90,7 @@ h4{
     align-items: center;
 
     padding: 0px 30px;
+    z-index: 1;
 }
 
 /* Large section */
@@ -153,20 +152,28 @@ h4{
 }
 
 .col{
-    border: 1px solid black;
     min-height: 500px;
     flex-basis: calc(100% / 3 - 60px/3);
     margin-top: 30px;
-    padding-left: 20px;
+}
+
+.pad-30{
+    padding-left: 30px;
+}
+
+.plan-col{
+    border: 1px solid #D4D4D7;
 }
 
 .xl-col{
     min-height: 200px;
     width: 100%;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .underline{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #D4D4D7;
     padding-top: 20px;
 }
 
@@ -184,8 +191,9 @@ h4{
 }
 
 .xl-card{
-    border: 1px solid black;
+    border: 1px solid #D4D4D7 ;
     margin: 30px 0;
+    position: relative;
 }
 
 .normal-btn{
@@ -194,19 +202,40 @@ h4{
     display: inline;
 }
 
+.in-btn{
+    display: inline-block;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    translate: 0 50%;
+}
+
+.col-shade{
+    opacity: 0.5;
+}
+
 /*Partner*/
 .s-partner{
     min-height: 500px;
-    border: 1px solid black;
+    padding-bottom: 250px;
 }
 
 .operations.col{
-    border: 1px solid black;
     flex-basis: calc(100% / 6 - 120px/6);
 }
 
 .clients{
     flex-basis: calc( 100% / 3);
+}
+
+.white-btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.padding-box{
+    padding-left: 50px;
 }
 
 /*Designit*/
@@ -222,6 +251,21 @@ h4{
     height: 50%;
     position: relative;
 }
+
+.h3-pad{
+    padding-top: 30px;
+}
+
+.margin-45{
+    margin-top: 45px;
+}
+
+.designit-logo{
+    width: 250px;
+    padding: 50px 30px;
+}
+
+/*Colors*/
 
 .designit{
     background-color: #A2D39B;
@@ -314,14 +358,20 @@ div.line{
 footer{
     background-color: #000000;
     color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
-/*.col a{
-    color: blue;  white
-    display: block;
-    margin: 10px 0;
-}*/
+.white-a{
+    color: white; 
+    display: block; 
+}
 
 .lang{
     padding: 50px 0;
+}
+
+.upperline{
+    border-top: 1px solid white;
+    padding-top: 20px;
 }
