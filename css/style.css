@@ -224,3 +224,25 @@ h4{
     background-color: #B4D0E7;
     color: #61082B;
 }
+
+/*Questions*/
+
+.question{
+    display: block;
+}
+
+.answer{
+    display: none;
+}
+
+#dropdown:hover .question{
+    display: block;
+}
+
+#dropdown:hover .answer{
+    display: block;
+}
+
+#dropdown{
+    margin: 50px 0;
+}
