@@ -246,3 +246,21 @@ h4{
 #dropdown{
     margin: 50px 0;
 }
+
+/*Footer*/
+
+.f-col{
+    flex-basis: calc( 100% / 5);
+    flex-wrap: nowrap;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+.col a{
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
