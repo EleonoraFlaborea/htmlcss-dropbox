@@ -23,13 +23,13 @@ body{
     display: inline-block;
 }
 
-.container{
+.jumbo-container{
     max-width: 1400px;
     margin: 0 auto;
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -86,7 +86,7 @@ h4{
     background-color: #B4D0E7 ;
 }
 
-.row{
+.box{
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -105,13 +105,16 @@ h4{
 
 /*Business Plan*/
 
-#plans{
+.main-container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+#plans{
     min-height: 500px;
 }
 
-.business-plan{
+.row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -120,9 +123,9 @@ h4{
 
 .col{
     border: 1px solid black;
-    height: 500px;
+    min-height: 500px;
     flex-basis: calc(100% / 3 - 60px/3);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .xl-col{
@@ -139,10 +142,12 @@ h4{
 
 /*Partner*/
 .s-partner{
-    max-height: 500px;
-    max-width: 1200px;
-    margin: 0 auto;
+    min-height: 500px;
     border: 1px solid black;
 }
 
-
+.operations.col{
+    border: 1px solid black;
+    flex-basis: calc(100% / 6 - 120px/6);
+   
+}
