@@ -132,10 +132,13 @@ h4{
 }
 
 .xl-col{
-    border: 1px solid black;
     min-height: 200px;
-    margin: 30px 0;
     width: 100%;
+}
+
+.xl-card{
+    border: 1px solid black;
+    margin: 30px 0;
 }
 
 .normal-btn{
@@ -167,7 +170,57 @@ h4{
 }
 
 .square{
-    border: 1px solid red;
     width: 50%;
     height: 50%;
+    position: relative;
+}
+
+.designit{
+    background-color: #A2D39B;
+}
+
+.asu{
+    background-color: #61082B;
+}
+
+.uf{
+    background-color: #1793CE;
+}
+
+.topps{
+    background-color: #FE1C1C;
+}
+
+.word-bicycle{
+    background-color: #D5111E;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.lonely-planet{
+    background-color: #0D2481;
+}
+
+.clear-channel{
+    background-color: #FDD82F;
+}
+
+.color-white{
+   filter: invert(100%);
+   width: 150px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   translate: -50% -50%;
+}
+
+.grey{
+    background-color: #F5F5F5;
+}
+
+.try-card{
+    background-color: #B4D0E7;
+    color: #61082B;
 }
