@@ -6,14 +6,12 @@
 }
 
 /* Generics */
-
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
 /* Utils */
-
 .large-container{
     max-width: 1400px;
     margin: 0 auto;
@@ -49,7 +47,6 @@ a:not(.btn){
 }
 
 /*h1/h2/h3/h4*/
-
 h1{
     font-weight: 900;
     font-size: 100px;
@@ -125,10 +122,7 @@ h4{
     background-color: rgba(246, 246, 248, 0.8);
 }
 
-
-
 /*Header*/
-
 #main-header{
     height: 80px;
     background-color: white;
@@ -146,7 +140,6 @@ h4{
 }
 
 /* Jumbotron */
-
 #jumbotron{
     background-color: #B4D0E7 ;
 }
@@ -176,7 +169,6 @@ h4{
 }
 
 /*Business Plan*/
-
 #business-plans{
     min-height: 500px;
 }
