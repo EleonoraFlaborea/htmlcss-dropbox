@@ -113,6 +113,10 @@ h4{
     text-align: center;
 }
 
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
 /*Header*/
 
 #main-header{
@@ -229,7 +233,6 @@ h4{
     padding-bottom: 50px;
 }
 
-
 .word-shade{
     opacity: 0.5;
 }
@@ -296,8 +299,8 @@ a.mg-0{
     width: 50%;
 }
 
-.square:hover {
-    border-color: rgb(225, 225, 225, 0.5) ;
+.square-box:hover {
+    border-color: rgb(225, 225, 225, 0.5);
 }
 
 .m-45{
