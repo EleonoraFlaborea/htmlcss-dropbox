@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 /* Utils */
@@ -19,6 +20,8 @@ body{
    display: inline-block;
    color: white;
    margin: 15px 0;
+   width: 300px;
+   text-align: center;
 }
 
 .logo{
@@ -70,8 +73,11 @@ h4{
     margin: 30px 0;
 }
 
-#arrow{
-    margin-top: 200px;
+.arrow{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
 }
 
 /*Header*/
@@ -153,6 +159,10 @@ h4{
     flex-wrap: wrap;
 }
 
+.btn-center{
+    text-align: center;
+}
+
 .g-30{
     gap: 30px;
 }
@@ -164,7 +174,7 @@ h4{
 }
 
 .pad-30{
-    padding-left: 30px;
+    padding: 0 30px;
 }
 
 .plan-col{
@@ -174,8 +184,7 @@ h4{
 .xl-col{
     min-height: 200px;
     width: 100%;
-    padding-left: 20px;
-    padding-bottom: 30px;
+    padding: 20px 20px;
 }
 
 .underline{
@@ -199,7 +208,6 @@ h4{
 .xl-card{
     border: 1px solid #D4D4D7 ;
     margin: 30px 0;
-    position: relative;
 }
 
 .normal-btn{
@@ -208,12 +216,11 @@ h4{
     display: inline;
 }
 
-.in-btn{
-    display: inline-block;
-    position: absolute;
-    left: 80%;
-    bottom: 50%;
-    translate: 0 50%;
+.right-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
 }
 
 .col-shade{
@@ -239,6 +246,12 @@ h4{
     background-color: white;
     color: black;
     border: 1px solid black;
+    text-align: center;
+}
+
+.h-btn{
+    width: 100px;
+    text-align: center;
 }
 
 .padding-box{
