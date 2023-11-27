@@ -141,6 +141,12 @@ h4{
     margin-left: 30px;
 }
 
+.icons-list li{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
 .row{
     display: flex;
     flex-direction: row;
@@ -244,7 +250,8 @@ h4{
 
 .division{
     display: flex;
-    width: 100%;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -252,8 +259,22 @@ h4{
 .square{
     width: 50%;
     height: 50%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 15px solid transparent;
 }
+
+.box-img{
+    filter: invert(1);
+    width: 50%;
+}
+
+.square:hover {
+    border-color: rgb(225, 225, 225, 0.5) ;
+}
+
 
 .h3-pad{
     padding-top: 30px;
@@ -302,15 +323,6 @@ h4{
     background-color: #FDD82F;
 }
 
-.color-white{
-   filter: invert(100%);
-   width: 150px;
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   translate: -50% -50%;
-}
-
 .grey{
     background-color: #F5F5F5;
 }
@@ -330,19 +342,19 @@ h4{
     display: none;
 }
 
-#dropdown:hover .question{
+.dropdown:hover .question{
     display: block;
 }
 
-#dropdown:hover .answer{
+.dropdown:hover .answer{
     display: block;
 }
 
-#dropdown p{
+.dropdown p{
     margin: 20px 0;
 }
 
-#dropdown{
+.dropdown{
     border-top: 1px solid black;
 }
 
